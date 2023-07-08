@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Righteous&display=swap');
+* {
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body{
+	position: relative;
+	min-height: 100vh;
+}
+#content{
+	margin-top: 32px;
+	margin-bottom: 72px;
+}
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-family: "Poppins", sans-serif;
+	letter-spacing: 5px;
+	/* background-color: #fafafa; */
+}
+.navbar-brand {
+	font-family: "Righteous", sans-serif;
+	color: #773be6 ;
+	font-weight: 400;
+	font-size: 26px;
+	margin-top: 14px;
+}
+.brandSpan{
+	color: #773be6; 
+}
+/* #EDAE49 */
+.navbar-brand:hover {
+	color: rgb(76, 93, 192) !important;
+} 
+.nav-item {
+	margin-left: 16px;
+}
+.nav-link {
+	color: #262728 ;
+}
+.navbar-nav li a:hover {
+	color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	margin-top: 28px;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 72px;
+	background-color: #1a1936;
+}
+
+.footer p {
+	position: relative;
+	top: 24px;
+	font-size: 14px;
+	color: #fcfeff;
+
+}
+
+label{
+	font-weight: 600;
+	margin-top: 16px;
+}
+.bton{
+	padding: 14px 28px;
+	margin-top: 20px;
+	background-color: rgb(250, 250, 250);
+	border-radius: 8px;
+	border: none;
+	border-style: solid;
+	border-color: rgb(76, 93, 192);
+	border-width: 1px;
+	color: rgb(76, 93, 192);
+	font-size: 16px;
+	font-weight: 600;
+	transition: background-color 0.15s, color 0.15s;
+}
+.bton:hover{
+	background-color: rgb(76, 93, 192);
+	color: rgb(250, 250, 250);
+}
+
+
+
+.buttonLink{
+	padding: 14px 28px;
+	border-radius: 28px;
+	border: none;
+	background-color: rgb(119, 59, 230);
+	color: #fff;
+	font-size: 17px;
+	letter-spacing: 0.8px;
+	margin-left: 20px;
+	cursor: pointer;
+	transition: background-color 0.15s, box-shadow 0.15s;
+}
+.buttonLink:hover{
+	background-color: rgb(83, 26, 189);
+	box-shadow: 0 20px 40px rgba(83, 26, 189, 0.15);
+}
+.buttonLink:active{
+	opacity: 0.6;
+}
